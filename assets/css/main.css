@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+nav {
+    background-color: rgb(123, 148, 228);
+}
+
+.btn, .btn-large, .btn-small {
+    background-color: blueviolet;
+}
+
+.page-footer {
+    padding-top: 0;
+    background-color: rgb(123, 148, 228);
+}
+
+main { 
+    flex: 1 0 auto;
+}
